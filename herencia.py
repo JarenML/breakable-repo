@@ -5,4 +5,6 @@ class Animal:
 
 animal = Animal("Rex", 5)
 
+animal2 = Animal("Panda", 2)
+
     
