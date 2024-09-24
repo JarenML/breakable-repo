@@ -3,4 +3,6 @@ class Animal:
         self.nombre = nombre
         self.edad = edad
 
+animal = Animal("Rex", 5)
+
     
