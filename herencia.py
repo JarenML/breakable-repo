@@ -14,3 +14,4 @@ class Perro(Animal):
     def ladrar(self):
         print("el perro esta ladrando")
 
+perro1 = Perro("Toby", 3)
