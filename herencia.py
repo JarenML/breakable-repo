@@ -23,7 +23,3 @@ class Perro(Animal):
 perro1 = Perro("Toby", 3)
 
 perro2 = Perro("Firulais", 1)
-
-
-class Gato(Animal):
-    pass
