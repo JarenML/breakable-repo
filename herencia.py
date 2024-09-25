@@ -3,6 +3,9 @@ class Animal:
         self.nombre = nombre
         self.edad = edad
 
+    def comer(self):
+        print("El animal esta comiendo")
+
 animal = Animal("Rex", 5)
 
 animal2 = Animal("Panda", 2)
