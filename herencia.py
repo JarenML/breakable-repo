@@ -6,6 +6,9 @@ class Animal:
     def comer(self):
         print("El animal esta comiendo")
 
+class Ave(Animal):
+    pass
+
 animal = Animal("Rex", 5)
 
 animal2 = Animal("Panda", 2)
@@ -20,3 +23,4 @@ class Perro(Animal):
 perro1 = Perro("Toby", 3)
 
 perro2 = Perro("Firulais", 1)
+
