@@ -11,11 +11,13 @@ class Ave(Animal):
 
 
 class AveVoladora(Ave):
-    pass
+    def volar(self):
+        print("El ave esta volando")
 
 
 class AveNoVoladora(Ave):
     pass
+    
 
 animal = Animal("Rex", 5)
 
