@@ -11,7 +11,8 @@ class Ave(Animal):
 
 
 class AveVoladora(Ave):
-    pass
+    def volar(self):
+        return "Volando..."
 
 
 class AveNoVoladora(Ave):
