@@ -11,6 +11,11 @@ class Ave(Animal):
 
 
 class AveVoladora(Ave):
+    def __init__(self, nombre, edad, altura_vuelo):
+        self.nombre = nombre
+        self.edad = edad
+        self.altura_vuelo = altura_vuelo
+
     def volar(self):
         print("El ave esta volando")
 
