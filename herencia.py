@@ -20,7 +20,7 @@ class AveVoladora(Ave):
         print("El ave esta volando")
 
 
-ave_voladora = AveVoladora('aguila', 6)
+ave_voladora = AveVoladora('aguila', 6, 200)
 
 
 class AveNoVoladora(Ave):
