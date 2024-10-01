@@ -12,11 +12,12 @@ class Ave(Animal):
 
 class AveVoladora(Ave):
     def volar(self):
-        return "Volando..."
+        print("El ave esta volando")
 
 
 class AveNoVoladora(Ave):
     pass
+    
 
 animal = Animal("Rex", 5)
 
