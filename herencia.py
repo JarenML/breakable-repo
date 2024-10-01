@@ -9,6 +9,14 @@ class Animal:
 class Ave(Animal):
     pass
 
+
+class AveVoladora(Ave):
+    pass
+
+
+class AveNoVoladora(Ave):
+    pass
+
 animal = Animal("Rex", 5)
 
 animal2 = Animal("Panda", 2)
@@ -23,3 +31,4 @@ class Perro(Animal):
 perro1 = Perro("Toby", 3)
 
 perro2 = Perro("Firulais", 1)
+
