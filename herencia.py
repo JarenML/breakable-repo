@@ -20,6 +20,9 @@ class AveVoladora(Ave):
         print("El ave esta volando")
 
 
+class Pinguino(AveNoVoladora):
+    pass
+
 ave_voladora = AveVoladora('aguila', 6, 200)
 
 
