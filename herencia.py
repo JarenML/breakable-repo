@@ -19,6 +19,8 @@ class AveVoladora(Ave):
     def volar(self):
         print("El ave esta volando")
 
+class Loro(AveVoladora):
+    pass
 
 class Pinguino(AveNoVoladora):
     pass
