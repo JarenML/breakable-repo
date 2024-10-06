@@ -23,8 +23,6 @@ class AveVoladora(Ave):
 class Pinguino(AveNoVoladora):
     pass
 
-ave_voladora = AveVoladora('aguila', 6, 200)
-
 
 class AveNoVoladora(Ave):
     pass
