@@ -19,16 +19,17 @@ class AveVoladora(Ave):
     def volar(self):
         print("El ave esta volando")
 
+class AveNoVoladora(Ave):
+    pass
+
+class Loro(AveVoladora):
+    pass
 
 class Pinguino(AveNoVoladora):
     pass
 
-
-class AveNoVoladora(Ave):
-    pass
-    
-
 class Perro(Animal):
     def ladrar(self):
         print("el perro esta ladrando")
+
 
